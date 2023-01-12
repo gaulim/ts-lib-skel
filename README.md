@@ -88,3 +88,34 @@ Open the `.gitignore` file and add the following contents.
 
 Open the `.yarnrc.yml` file and add the following content.
 > `nodeLinker: node-modules`  
+
+- - -
+
+Enabling Yarn Zero-Installs
+---------------------------
+
+### 1. Update .yarnrc.yml
+
+Open the `.yarnrc.yml` file and delete the following content.
+> `nodeLinker: node-modules`  
+
+### 2. Update .gitignore
+
+2-1. Open the `.gitignore` file.
+
+2-2. Delete the following content.
+> `.pnp.*`  
+
+2-3. Add the following content.
+> `!.yarn/cache`  
+
+### 3. Update .gitattributes
+
+Open the `.gitattributes` file and add the following content.
+> `.yarn/cache/** binary`  
+
+### 4. Yarn install
+
+```sh
+> yarn install
+```
