@@ -6,5 +6,5 @@
   "repository": "https://github.com/gaulim/ts-lib-skel.git",
   "author": "가울림(Gaulim) <4607540+gaulim@users.noreply.github.com>",
   "license": "MIT",
-  "private": false
+  "packageManager": "yarn@3.3.1"
 }

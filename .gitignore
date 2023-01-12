@@ -2,5 +2,14 @@
 ### npm ###
 node_modules/
 
+### yarn ###
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 ### Deploy ###
 dist/
