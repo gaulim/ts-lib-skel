@@ -1,0 +1,10 @@
+{
+  "name": "ts-lib-skel",
+  "version": "0.1.0",
+  "description": "TypeScript library skeleton project",
+  "main": "dist/index.js",
+  "repository": "https://github.com/gaulim/ts-lib-skel.git",
+  "author": "가울림(Gaulim) <4607540+gaulim@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false
+}
